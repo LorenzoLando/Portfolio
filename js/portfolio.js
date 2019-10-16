@@ -7,7 +7,7 @@
         
  			$('.navbar').removeClass('background-top');
 
- //when scrolling up nav background back to normal
+ when scrolling up nav background back to normal
       } else {
 
       		$('.navbar').addClass('background-top');

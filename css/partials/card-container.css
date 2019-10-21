@@ -1,0 +1,9 @@
+.card-container {
+    margin: 0 0 1rem 0;
+}
+
+
+
+.card-container .card {
+    min-height: 100%;
+} 

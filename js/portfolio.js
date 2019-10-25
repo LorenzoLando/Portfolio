@@ -1,15 +1,14 @@
 //Changing navbar css on scroll
 $(window).on('scroll', function() {    
      var scroll = $(window).scrollTop();
-     console.log(scroll);
-    if (scroll >= 100 && scroll < 500) {
-          $('.navbar').css("display", "none");
+     if (scroll >= 100 && scroll < 500) {
+          $('.navbar').addClass('hidden');
 
      } else if(scroll < 50) {
-          $('.navbar').css("display", "block");
+          $('.navbar').removeClass('hidden');
           $('.navbar').addClass('background-top');
      } else if (scroll >= 500 ) {
-          $('.navbar').css("display", "block");
+          $('.navbar').removeClass('hidden');
           $('.navbar').removeClass('background-top');
      }
 });

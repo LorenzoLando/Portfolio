@@ -1,3 +1,53 @@
 .navbar {
-    transition: 5s;
+    transition: all 0.5s linear;
 }
+
+@media (max-width:641px) {
+    
+    .navbar {
+    
+        position: static;
+    }
+}
+
+.navbar .navbar-brand {
+    color: rgba(255, 255, 255, 0.85);
+    font-size: 1rem;
+}
+
+
+.background-top {
+
+	background-color: rgba(14, 91, 255, 0.0) !important;
+
+}
+
+
+@media (max-width:641px) {
+    
+    .navbar {
+    
+        background-color: #007bff !important;
+        background:   linear-gradient(
+            rgba(14, 91, 255, 0.6), 
+            rgba(14, 91, 255, 0.6)
+        )
+                    
+    }
+
+}
+
+.hidden {
+    opacity: 0;
+    visibility: hidden;
+}
+
+.navbar .container {
+    min-width: 100%;
+}
+
+
+
+
+
+

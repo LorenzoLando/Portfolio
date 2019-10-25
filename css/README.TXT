@@ -1,4 +1,4 @@
-Sistema animazione navbar
+
 sistema stille delle card (titolo centrato e immmagine del progetto di uguale dimensione)
 sistemare call to action della mail piu` piccola
 sistemare la colonna portfolio

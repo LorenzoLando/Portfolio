@@ -2,8 +2,15 @@
     margin: 0 0 1rem 0;
 }
 
-
-
 .card-container .card {
     min-height: 100%;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
 } 
+
+
+.card-body {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+

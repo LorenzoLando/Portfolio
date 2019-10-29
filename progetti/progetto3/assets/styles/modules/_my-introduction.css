@@ -1,0 +1,30 @@
+.my-introduction {
+	font-family: 'Montserrat', sans-serif;
+	height: 65vh;
+	width: 100vw;
+	margin-top: -32px;
+	background-color: #fcf5ed;
+	
+
+	&__title {
+		color: #e60033;
+		text-align: center;
+		font-size: 1.6875rem;
+		font-weight: 900;
+		line-height: 45px;
+		padding-top: 45px;
+
+		
+
+		@mixin atMedium {
+			font-size: 2.5rem;
+			line-height: 27px;
+			padding-top: 86px;
+		}
+
+	}
+
+	
+	
+}
+

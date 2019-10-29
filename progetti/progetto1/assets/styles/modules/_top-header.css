@@ -1,0 +1,45 @@
+.main-header {
+	position: fixed;
+	width: 100vw;
+	top: -5px;
+
+}
+
+.top-header {
+	display: none;
+	flex-direction: row;
+	justify-content: space-around;
+	background-color: $mainColor;
+	font-family: 'Open Sans', sans-serif;
+	font-size: .8rem;
+	font-weight: 400;
+	color: #FFF;
+	height: 48px;
+
+	@mixin atMedium {
+		display: flex;
+		font-size: 1rem;
+		justify-content: flex-end;
+		
+	}
+
+	&__icon {
+		
+		margin-left: -30px;
+		@mixin atMedium {
+			margin-right: 10px;
+		}
+		
+	}
+
+	&__text {
+		
+		margin-top: 15px;
+
+		@mixin atMedium {
+			margin-right: 229px;
+		}
+	}
+
+
+}

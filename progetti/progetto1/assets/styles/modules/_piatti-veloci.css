@@ -1,0 +1,30 @@
+.piatti-veloci {
+	display: flex;
+	flex-direction: column;
+
+	@mixin atMedium {
+		flex-direction: row;
+	}
+
+
+	&__text {
+		width: 100%;
+		justify-content: center;
+	
+		@mixin atMedium {
+			width: 50%;
+		}
+
+
+	}
+
+	&__img {
+		width: 50%;
+
+		img {
+			width: 100%;
+			height: auto;
+		}
+	}
+	
+}

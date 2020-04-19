@@ -32,7 +32,7 @@ ANIMATION CLASS
     opacity: 0;
     transform: rotateX(90deg);
 }
-}
+} 
 
 
 @keyframes myAnimationUp{
